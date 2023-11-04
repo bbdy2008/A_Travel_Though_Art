@@ -10,8 +10,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #333333;
+    color: #ffffff;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -19,14 +19,14 @@ header {
 
 header a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     margin: 0 20px;
     transition: transform 0.2s;
 }
 
 header a:hover {
     transform: scale(1.2);
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 .logo {
@@ -37,32 +37,32 @@ header a:hover {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 15px;
-    box-shadow: 0px 0px 15px #333;
+    box-shadow: 0px 0px 15px #333333;
 }
 
 h1 {
-    color: #333;
+    color: #333333;
     text-align: center;
 }
 
 h1 .art-link {
-    color: #333; 
+    color: #333333;
     font-style: italic;
-    transition: transform 0.2s; 
+    transition: transform 0.2s;
 }
 
 h1 a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     margin: 0 3px;
     transition: transform 0.2s;
 }
 
 h1 a:hover {
     transform: scale(1.2);
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 .image-container {
@@ -76,7 +76,7 @@ h1 a:hover {
 }
 
 .dashed-line {
-    border: 2px dashed gray;
+    border: 2px dashed #808080;
 }
 
 .exhibitions {
@@ -87,17 +87,16 @@ h1 a:hover {
 
 .exhibitions a {
     text-decoration: none;
-    color: #333;
+    color: #333333;
     margin: 0 10px;
 }
 
-
 .quote-box {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 0px 0px 10px #333;
+    box-shadow: 0px 0px 10px #333333;
     text-align: center;
     margin-top: 20px;
     display: inline-block;
@@ -116,7 +115,7 @@ h1 a:hover {
 
 .bottomleft {
     font-family: "Times New Roman", Times, serif;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     position: absolute;
     bottom: 0px;
