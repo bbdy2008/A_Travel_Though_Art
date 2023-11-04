@@ -24,7 +24,7 @@ header a {
     transition: transform 0.2s;
 }
 
-header a: hover {
+header a:hover {
     transform: scale(1.2);
     text-decoration: underline; 
 }
@@ -48,7 +48,6 @@ h1 {
 }
 
 h1 .art-link {
-    font-family: 'Arial', sans-serif; 
     color: black; 
     font-style: italic;
     transition: transform 0.2s; 
@@ -61,7 +60,7 @@ h1 a {
     transition: transform 0.2s;
 }
 
-h1 a: hover {
+h1 a:hover {
     transform: scale(1.2);
     text-decoration: underline; 
 }
@@ -91,6 +90,7 @@ h1 a: hover {
     color: #333;
     margin: 0 10px;
 }
+
 
 .quote-box {
     background-color: black;
