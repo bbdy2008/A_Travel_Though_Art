@@ -20,11 +20,11 @@ header {
 header a {
     color: #fff;
     margin: 0 20px;
-    transition: transform 10s;
+    transition: transform 0.2s;
 }
 
 header a:hover {
-    transform: scale(100);
+    transform: scale(1.2);
     text-decoration: underline; 
 }
 
