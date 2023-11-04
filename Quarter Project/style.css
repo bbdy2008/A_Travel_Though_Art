@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: white;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #fff;
+    color: white;
     margin: 0 20px;
     transition: transform 0.2s;
 }
@@ -37,7 +37,7 @@ header a:hover {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: white;
     border-radius: 15px;
     box-shadow: 0px 0px 15px #333;
 }
@@ -55,7 +55,7 @@ h1 .art-link {
 
 h1 a {
     text-decoration: none;
-    color: #fff;
+    color: white;
     margin: 0 3px;
     transition: transform 0.2s;
 }
