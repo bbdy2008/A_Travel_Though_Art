@@ -18,14 +18,13 @@ header {
 }
 
 header a {
-    text-decoration: none;
     color: #fff;
     margin: 0 20px;
-    transition: transform 0.2s;
+    transition: transform 10s;
 }
 
 header a:hover {
-    transform: scale(1.2);
+    transform: scale(100);
     text-decoration: underline; 
 }
 
@@ -54,7 +53,6 @@ h1 .art-link {
 }
 
 h1 a {
-    text-decoration: none;
     color: #fff;
     margin: 0 3px;
     transition: transform 0.2s;
