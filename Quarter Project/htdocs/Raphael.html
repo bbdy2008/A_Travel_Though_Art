@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Michelangelo</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel = "icon" href = "../images/logoWbg.png" type = "image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url("../images/raphael.jpeg");
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+  	    background-color: rgba(255,255,255,0.5);
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px #333333;
+        }
+
+        .description {
+	    color: white;
+	    font-family: Verdana;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        .media {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        audio,
+        video {
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #333333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../homepage.html">Home</a>
+        <a href="aboutthesite.html">About the Site</a>
+    </header>
+    <div class="container">
+        <div class="description">
+            <p>Raphael blah blah blah
+        </div>
+        <div class="media">
+            <audio controls>
+                <source src=".mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <video controls width="400">
+                <source src=".mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</body>
+</html>
