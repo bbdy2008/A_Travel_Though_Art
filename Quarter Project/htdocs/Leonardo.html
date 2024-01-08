@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leonardo Da Vinci</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/logoWbg.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url("../images/leod.jpeg");
+            background-color: #f7f7f7;
+        }
+
+        img {
+            opacity: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            position: absolute;
+            bottom: 500px;
+            width: 100%;
+ 	    font-size: 50px;
+        }
+
+        .container {
+            max-width: 9000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255,255,255,0.5);
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px #333333;
+        }
+
+        .description {
+            color: white;
+            font-family: Verdana;
+            text-align: left;
+            margin-bottom: 20px;
+            margin-top: 0;
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .description p {
+            margin-bottom: 10px;
+        }
+
+        .media {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+
+        .video-container {
+            flex: 1 1 70%;
+            margin-right: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+
+        .audio-container {
+            flex: 1 1 100%;
+            margin-top: 20px;
+        }
+
+	.instructions {
+    	    font-weight: bold;
+            color: #996515;
+  	    font-family: Georgia, serif;
+	}
+
+        h2 {
+	    text-align: center;
+	    font-size: 30px;
+	}
+
+        .painting {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .painting img {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .painting-text {
+	    background-color: gold;
+            font-weight: bold;
+            margin-top: 8px;
+ 	    font-size: 20px;
+	    font-style: italic;
+        }
+
+        .painting-date {
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+
+	buttons {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        buttons:hover {
+            background-color: #ddd;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../homepage.html">Home</a>
+        <a href="aboutthesite.html">About the Site</a>
+    </header>
+    <h1>Leonardo Da Vinci</h1>
+    <img src="../images/leo.jpeg" width="1" height="200">
+    <div class="container">
+        <div class="description">
+            <p>Leonardo da Vinci, renowned as one of the greatest artists of all time, was a polymath during the Italian Renaissance. His artistic genius spanned painting, sculpture, architecture, engineering, and more.</p>
+            <p>Explore the journey through his masterpieces and delve into the mind of this brilliant visionary.</p>
+        </div>
+        <div class="media">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/bvGiWrEvs4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="audio-container">
+                <p class="instructions">Enjoy Chopin - Nocturne op.9 No.2 to fully immerse yourself whilst admiring the artwork below.</p>
+    <audio controls autoplay muted>
+        <source src="../mmfiles/Chopin.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+                <h2> Top 5 Artworks </h2>
+                <div class="painting">
+                    <img src="../images/monalisa.jpeg" alt="Mona Lisa">
+                    <p class="painting-text">Mona Lisa</p>
+		    <p class="painting-date"> </p>
+                </div>
+
+
+                <div class="painting">
+                    <img src="../images/thelastsupper.jpeg" alt="The Last Supper">
+                    <p class="painting-text">The Last Supper</p>
+		    <p class="painting-date"> </p>
+                </div>
+
+
+                <div class="painting">
+                    <img src="../images/thevitruvianman.jpeg" alt="The Vitruvian Man">
+                    <p class="painting-text">The Vitruvian Man</p>
+		    <p class="painting-date">Test :3</p>
+                </div>
+
+
+                <div class="painting">
+                    <img src="../images/madonnaandchild.jpg" alt="Madonna and Child">
+                    <p class="painting-text">Madonna and Child</p>
+		    <p class="painting-date"> </p>
+                </div>
+
+
+                <div class="painting">
+                    <img src="../images/salvatormundi.jpeg" alt="Salvator Mundi">
+                    <p class="painting-text">Salvator Mundi</p>
+		    <p class="painting-date"> </p>
+                </div>
+
+
+        	<div class="buttons">
+            	    <a href="homepage.html" class="previous">&laquo;Previous</a>
+                    <a href="Michelangelo.html" class="next">Next&raquo;</a>
+        	</div>
+    </div>
+</body>
+</html>
