@@ -11,17 +11,13 @@
             background-color: #f7f7f7;
         }
 
-        img {
-            opacity: 0;
-        }
-
         h1 {
             text-align: center;
             color: white;
             position: absolute;
             bottom: 500px;
             width: 100%;
- 	    font-size: 50px;
+            font-size: 50px;
         }
 
         .container {
@@ -34,9 +30,9 @@
         }
 
         .description {
-            color: white;
+            color: black;
             font-family: Verdana;
-            text-align: left;
+            text-align: justify;
             margin-bottom: 20px;
             margin-top: 0;
             flex: 1;
@@ -69,66 +65,98 @@
             margin-top: 20px;
         }
 
-	.instructions {
-    	    font-weight: bold;
-            color: #996515;
-  	    font-family: Georgia, serif;
-	}
+        .instructions {
+            font-weight: bold;
+            color: black;
+        }
 
         h2 {
-	    text-align: center;
-	    font-size: 30px;
-	}
+            background-color: #996515;
+            color: white;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px #333333;
+            text-align: center;
+            font-size: 40px;
+            font-family: Georgia, serif;
+       }
 
         .painting {
             border-radius: 8px;
             box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+            margin: 25px 25px 25px 25px;
         }
 
         .painting img {
- 	    text-align: center;
-            margin-top: 20px;
+            text-align: center;
+            margin-top: 25px;
             width: 100%;
             max-width: 400px;
             display: block;
             margin: 0 auto;
+            padding-top: 25px;
+
         }
 
         .painting-text {
-	    text-align: center;
-	    background-color: gold;
-            	    font-weight: bold;
-                 margin-top: 8px;
- 	    font-size: 20px;
-	    font-style: italic;
-        }
+            background-color: #000000;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px #333333;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin-left:25%;
+            margin-top: 20px;
+            margin-bottom: 0px;
+            display: inline-block;
+       }
 
         .painting-date {
-                font-weight: bold;
-                margin-top: 8px;
+            font-weight: bold;
+            text-align: center;
+            background-color: white;
+            color: black;
+            border-radius: 0px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px #333333;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+            margin-left:37%;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            display: inline-block;
         }
 
 
-        buttons {
-                text-decoration: none;
-                display: inline-block;
-                padding: 8px 16px;
+       .button1 {
+            display: inline-block;
+            padding: 8px 16px;
+            font-weight: bold;
+            text-align: center;
+            background-color: white;
+            color: black;
+            border-radius: 0px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px #333333;
         }
 
-        buttons:hover {
-        	  background-color: #ddd;
+       .button2 {
+            display: inline-block;
+            padding: 8px 16px;
+            font-weight: bold;
+            text-align: center;
+            padding-left: 20px;
+            background-color: black;
+            color: white;
+            border-radius: 0px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px #333333;
         }
-
-        .previous {
-                background-color: #f1f1f1;
-                color: black;
-        }
-
-        .next {
-                background-color: #04AA6D;
-                color: black;
-        }
-
 
     </style>
 </head>
@@ -141,59 +169,57 @@
     <img src="../images/michel.jpeg" width="1" height="200">
     <div class="container">
         <div class="description">
-            <p>Michelangelo Buonarroti, renowned as one of the greatest artists of the Italian Renaissance, was a prolific painter, sculptor, and architect. His ability to infuse emotion and movement into his paintings, along with his meticulous attention to detail, set him apart.<p>
+            <p>Michelangelo Buonarroti, renowned as one of the greatest artists of the Italian Renaissance, was a prolific painter, sculptor, and architect. His ability to infuse emotion and movement into his paintings, along with his meticulous attention to detail, set him apart.</p>
             <p>Explore the journey through his masterpieces and delve into the mind of this brilliant visionary.</p>
         </div>
         <div class="media">
-            <div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CBxhK3Gc4Tc?si=5FS2jTdkJ-a59Awa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            
-            </div>
-            <div class="audio-container">
-                <p class="instructions">Enjoy Niccolo Paganini's—"La campanella" to fully immerse yourself whilst admiring the artwork below.</p>
-    <audio controls autoplay>
+        <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CBxhK3Gc4Tc?si=5FS2jTdkJ-a59Awa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+         </div>
+         <div class="audio-container">
+         <p class="instructions">Enjoy Niccolo Paganini's—"La campanella" to fully immerse yourself whilst admiring the artwork below.</p>    
+<audio controls autoplay>
         <source src="../mmfiles/Niccolo.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
-                <h2> Top 5 Artworks </h2>
-                <div class="painting">
-                    <img src="../images/monalisa.jpeg" alt="Mona Lisa" width = 300>
-                    <p class="painting-text">Mona Lisa</p>
-		    <p class="painting-date"> </p>
-                </div>
-
+                <h2>||  Five Featured Artworks  ||</h2>
 
                 <div class="painting">
-                    <img src="../images/thelastsupper.jpeg" alt="The Last Supper">
-                    <p class="painting-text">The Last Supper</p>
-		    <p class="painting-date"> </p>
+                    <img src="../images/pieta.jpeg" alt="La Pietà">
+                    <p class="painting-text">La Pietà</p>
+		    <p class="painting-date">(c. 1498–1499)</p>
                 </div>
-
 
                 <div class="painting">
-                    <img src="../images/thevitruvianman.jpeg" alt="The Vitruvian Man">
-                    <p class="painting-text">The Vitruvian Man</p>
-		    <p class="painting-date"></p>
+                    <img src="../images/david.jpeg" alt="David">
+                    <p class="painting-text">David</p>
+		    <p class="painting-date">(c. 1501–1504)</p>
                 </div>
-
 
                 <div class="painting">
-                    <img src="../images/madonnaandchild.jpg" alt="Madonna and Child">
-                    <p class="painting-text">Madonna and Child</p>
-		    <p class="painting-date"> </p>
+                    <img src="../images/donitondo.jpeg" alt="Doni Tondo">
+                    <p class="painting-text">Doni Tondo</p>
+		    <p class="painting-date">(c. 1504-1506)</p>
                 </div>
-
 
                 <div class="painting">
-                    <img src="../images/salvatormundi.jpeg" alt="Salvator Mundi">
-                    <p class="painting-text">Salvator Mundi</p>
-		    <p class="painting-date"> </p>
+                    <img src="../images/sistinechapel.jpeg" alt="The Sistine Chapel">
+                    <p class="painting-text">The Sistine Chapel</p>
+		    <p class="painting-date">(c. 1508-1512)</p>
                 </div>
 
+                <div class="painting">
+                    <img src="../images/thecreationofadam.jpeg" alt="The Creation of Adam">
+                    <p class="painting-text">The Creation of Adam</p>
+		    <p class="painting-date">(c. 1512)</p>
+                </div>
 
-        	<div class="buttons">
+        	<div class="button1">
             	    <a href="Leonardo.html" class="previous">&laquo; Previous Exhibit</a>
-                    <a href="Raphael.html" class="next"> Next Exhibit&raquo;</a>
+		</div>
+
+        	<div class="button2">
+                    <a href="Raphael.html" class="next"> Next Exhibit &raquo;</a>
         	</div>
-    </div>
 </body>
 </html>
