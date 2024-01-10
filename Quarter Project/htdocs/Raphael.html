@@ -30,9 +30,9 @@
         }
 
         .description {
-            color: white;
+            color: black;
             font-family: Verdana;
-            text-align: left;
+            text-align: justify;
             margin-bottom: 20px;
             margin-top: 0;
             flex: 1;
@@ -66,65 +66,83 @@
         }
 
         .instructions {
-    	    font-weight: bold;
-                 color: #996515;
-  	    font-family: Georgia, serif;
-	}
+            font-weight: bold;
+            color: black;
+        }
 
         h2 {
-	    text-align: center;
-	    font-size: 30px;
-	}
+            background-color: #996515;
+            color: white;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px #333333;
+            text-align: center;
+            font-size: 40px;
+            font-family: Georgia, serif;
+        }
 
         .painting {
-                 border-radius: 8px;
-                 box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+            margin: 25px 25px 25px 25px;
         }
 
         .painting img {
-                 text-align: center;
-                 margin-top: 20px;
-                 width: 100%;
-                 max-width: 400px;
-                 display: block;
-                 margin: 0 auto;
+            text-align: center;
+            margin-top: 25px;
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 0 auto;
+            padding-top: 25px;
         }
 
         .painting-text {
-	    text-align: center;
-	    background-color: gold;
-                 font-weight: bold;
-                 margin-top: 8px;
- 	    font-size: 20px;
-	    font-style: italic;
+            background-color: #000000;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px #333333;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin-left:25%;
+            margin-top: 20px;
+            margin-bottom: 0px;
+            display: inline-block;
         }
 
         .painting-date {
-	    font-weight: bold;
-	    margin-top: 8px;
+            font-weight: bold;
+            text-align: center;
+            background-color: white;
+            color: black;
+            border-radius: 0px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px #333333;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+            margin-left:37%;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            display: inline-block;
         }
 
 
-        buttons {
-	    text-decoration: none;
-	    display: inline-block;
-	    padding: 8px 16px;
+       .buttons {
+            display: inline-block;
+            padding: 8px 16px;
+            font-weight: bold;
+            text-align: center;
+            background-color: white;
+            color: black;
+            border-radius: 0px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px #333333;
         }
-
-        buttons:hover {
-	    background-color: #ddd;
-        }
-
-        .previous {
-	    background-color: #f1f1f1;
-	    color: black;
-        }
-
-        .next {
-	    background-color: #04AA6D;
-	    color: black;
-        }
-
 
     </style>
 </head>
@@ -145,49 +163,46 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/qbceSJtVdws?si=V9VlSmKTlKHy5bNe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="audio-container">
-                <p class="instructions">Enjoy Chopin's—"Nocturne op.9 No.2" to fully immerse yourself whilst admiring the artwork below.</p>
+                <p class="instructions">Enjoy Tchaikovsky's—"Valse Sentimentale" to fully immerse yourself whilst admiring the artwork below.</p>
     <audio controls autoplay>
-        <source src="../mmfiles/Chopin.mp3" type="audio/mpeg">
+        <source src="../mmfiles/Tchaikovsky.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
-                <h2> Top 5 Artworks </h2>
-                <div class="painting">
-                    <img src="../images/monalisa.jpeg" alt="Mona Lisa" width = 300>
-                    <p class="painting-text">Mona Lisa</p>
-		    <p class="painting-date"> </p>
-                </div>
-
+                <h2>||  Five Featured Artworks  ||</h2>
 
                 <div class="painting">
-                    <img src="../images/thelastsupper.jpeg" alt="The Last Supper">
-                    <p class="painting-text">The Last Supper</p>
-		    <p class="painting-date"> </p>
+                    <img src="../images/themarriageofthevirgin.jpeg" alt="The Marriage of the Virgin">
+                    <p class="painting-text">The Marriage of the Virgin</p>
+		    <p class="painting-date">(c. 1504)</p>
                 </div>
-
 
                 <div class="painting">
-                    <img src="../images/thevitruvianman.jpeg" alt="The Vitruvian Man">
-                    <p class="painting-text">The Vitruvian Man</p>
-		    <p class="painting-date"></p>
+                    <img src="../images/schoolofathens.jpg" alt="The School of Athens">
+                    <p class="painting-text">The School of Athens</p>
+		    <p class="painting-date">(c. 1509-1511)</p>
                 </div>
-
 
                 <div class="painting">
-                    <img src="../images/madonnaandchild.jpg" alt="Madonna and Child">
-                    <p class="painting-text">Madonna and Child</p>
-		    <p class="painting-date"> </p>
+                    <img src="../images/triumphofgalatea.jpeg" alt="Triumph of Galatea">
+                    <p class="painting-text">Triumph of Galatea</p>
+		    <p class="painting-date">(c. 1512)</p>
                 </div>
-
 
                 <div class="painting">
-                    <img src="../images/salvatormundi.jpeg" alt="Salvator Mundi">
-                    <p class="painting-text">Salvator Mundi</p>
-		    <p class="painting-date"> </p>
+                    <img src="../images/portraitofbaldassarecastiglione.jpeg" alt="Portrait of Baldassare Castiglione">
+                    <p class="painting-text">Portrait of Baldassare Castiglione</p>
+		    <p class="painting-date">(c. 1514–1515)</p>
                 </div>
 
+                <div class="painting">
+                    <img src="../images/transfiguration.jpeg" alt="Transfiguration">
+                    <p class="painting-text">Transfiguration</p>
+		    <p class="painting-date">(c. 1516–1520)</p>
+                </div>
 
         	<div class="buttons">
-            	        <a href="Michelangelo.html" class="previous">&laquo; Previous Exhibit</a>        	</div>
+            	        <a href="Michelangelo.html" class="previous">&laquo; Previous Exhibit</a>        	
+		</div>
     </div>
 </body>
 </html>
