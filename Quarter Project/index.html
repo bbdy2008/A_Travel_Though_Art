@@ -18,6 +18,14 @@
             text-align: center;
         }
 
+    	.logo-rotate-hover {
+      	    transition: transform 0.3s ease-in-out;
+    	}
+
+    	.logo-rotate-hover:hover {
+      	    transform: rotate(360deg);
+    	}
+
         .container {
             max-width: 1200px;
             margin: 20px auto;
@@ -45,9 +53,16 @@
             transition: transform 0.2s;
         }
 
+        @keyframes example {
+  	from {background-color: red;}
+ 	to {background-color: yellow;}
+	}
+
         h1 a:hover {
             transform: scale(1.2);
             text-decoration: underline;	
+  	    animation-name: example;
+            animation-duration: 5s;
         }
 
         .sprite-fb,
@@ -170,7 +185,7 @@
 	
     <div class="container">
         <div class="logo">
-            <img src="images/logo.png" alt="A Travel Through Art" width="350">
+            <img class="logo-rotate-hover" src="images/logo.png" alt="A Travel Through Art" width="350">
         </div>
         <h1>Welcome to <a href="homepage.html" class="art-link">A Travel Through Art</a></h1>
         <hr class="dashed-line">
